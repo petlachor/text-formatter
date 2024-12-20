@@ -9,6 +9,7 @@ def split_text():
 root = tk.Tk()
 root.title("Text Formatter")
 root.geometry("480x320")
+root.resizable(0,0)
 split = ["\n","\t"]
 svar = tk.IntVar()
 
